@@ -40,4 +40,8 @@ export const trackerColumnName: TrackerColumnDataType[] = [
     name: "Move to prod",
     status: "MOVE_TO_PROD",
   },
+  {
+    name: "On prod",
+    status: "ON_PROD",
+  },
 ];

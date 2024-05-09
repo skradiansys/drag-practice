@@ -4,13 +4,15 @@ export type StatusType =
   | "PENDING"
   | "PROGRESS"
   | "READY_TO_TEST"
-  | "MOVE_TO_PROD";
+  | "MOVE_TO_PROD"
+  | "ON_PROD";
 
 export type ColumnType =
   | "Pending"
   | "In Progress"
   | "Ready to test"
-  | "Move to prod";
+  | "Move to prod"
+  | "On prod";
 
 export type TrackerDataType = {
   title: string;
